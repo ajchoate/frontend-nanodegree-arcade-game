@@ -1,6 +1,23 @@
-frontend-nanodegree-arcade-game
+# Arcade Game Clone
 ===============================
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+In this repository you will find a simplified clone of the classic arcade game [Frogger](https://en.wikipedia.org/wiki/Frogger).
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+### Gameplay and Rules
+
+Use the direction keys to move your player around on screen. Your goal is to avoid the ladybugs and collect all the stars.
+
+- You score a point each time you make it to the water
+- You lose a point any time you collide with a ladybug
+- Collecting a star or reaching the water will reset your player to the starting square
+- You win and the game ends when you collect the final star
+
+### How to Run
+
+1. Open the frontend-nanodegree-arcade-game repository.
+2. Click the green "Clone or download" button on the right side of the screen.
+3. Click "Download ZIP" (or, if you have GitHub Desktop, you can choose "Open in Desktop").
+4. Unzip the files.
+5. Open the file "index.html" in the browser of your choice.
+
+Have fun!

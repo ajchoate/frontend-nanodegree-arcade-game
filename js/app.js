@@ -49,7 +49,7 @@ var Player = function() {
 };
 
 Player.prototype.update = function(dt) {
-    if (this.y < 4) {
+    if (this.y < 5) {
         this.reset();
         this.score++;
     }
@@ -150,13 +150,14 @@ var enemyOne = new Enemy();
 var enemyTwo = new Enemy();
 var enemyThree = new Enemy();
 var enemyFour = new Enemy();
+var enemyFive = new Enemy();
 var starOne = new Stars(101);
 var starTwo = new Stars(303);
 var starThree = new Stars(505);
 var starFour = new Stars(707);
 var starFive = new Stars(909);
 
-var allEnemies = [enemyOne, enemyTwo, enemyThree, enemyFour];
+var allEnemies = [enemyOne, enemyTwo, enemyThree, enemyFour, enemyFive];
 var allStars = [starOne, starTwo, starThree, starFour, starFive];
 var player = new Player();
 
